@@ -14,8 +14,8 @@ import elementtree.ElementTree as ET
 import logging as log
 log.basicConfig(file='myapp.log', level=log.INFO)
 # reading the XML file
-#tree = ET.ElementTree(file="/Users/naru/Documents/aws_project/ClinVarPy/clinVarData/RCV000077146.xml")
-tree = ET.ElementTree(file="/Users/naru/Documents/aws_project/ClinVarPy/clinVarData/ClinVarFullRelease_2015-04.xml")
+tree = ET.ElementTree(file="/Users/naru/Documents/aws_project/ClinVarPy/clinVarData/RCV000077146.xml")
+#tree = ET.ElementTree(file="/Users/naru/Documents/aws_project/ClinVarPy/clinVarData/ClinVarFullRelease_2015-04.xml")
 
 # getting top-level elements
 root =tree.getroot()
