@@ -24,6 +24,7 @@ log.info( "tag=%s, attrib=%s",root.tag, root.attrib)  # getting attributes of ro
 
 
 
+
 for level1 in root:
 	log.info("Level 1")
 	log.info("tag=%s, attrib=%s", level1.tag,level1.attrib)
