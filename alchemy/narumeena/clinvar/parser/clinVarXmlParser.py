@@ -28,7 +28,7 @@ log.info( "tag=%s, attrib=%s",root.tag, root.attrib)  # getting attributes of ro
 for level1 in root:
 	log.info("Level 1")
 	log.info("tag=%s, attrib=%s", level1.tag,level1.attrib)
-	for level2 in level1:
+"""	for level2 in level1:
 		log.info("Level2 ")
 		log.info("tag=%s, attrib=%s", level2.tag,level2.attrib)
 		for level3 in level2:
@@ -49,6 +49,7 @@ for level1 in root:
 							for level8 in level7:
 								log.info("Level 8")
 								log.info("tag=%s, attrib=%s", level8.tag,level8.attrib)
+"""
 log.info("len=%s, name = %s", len(root[0][2]),root[1][1].text)
 
 
